@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #1f2937;
+}
+
+/*Everything to do with the header*/
+
+.header{
+    color: #F9FAF8;
+    margin: 0% 15%;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Everything to do with the hero (part of the header)*/
+
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    max-width: fit-content;
+    padding: 3px 20px;
+    margin-top: 8px;
+}
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+}
