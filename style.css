@@ -69,6 +69,11 @@ button {
     flex-direction: column;
 }
 
+div > img {
+    height: 200px;
+    width: auto;
+}
+
 /* Everything to do with the information section */
 
 #title {
