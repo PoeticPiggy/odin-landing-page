@@ -96,3 +96,24 @@ button {
     text-align: center;
     gap: 60px;
 }
+
+/* Everyhing to do with the quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    font-weight: 100;
+    padding: 7% 10%;
+}
+
+.quote > .text {
+    font-size: 32px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-size: 18px;
+}
