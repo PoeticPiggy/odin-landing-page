@@ -22,7 +22,7 @@ body {
     font-weight: 900;
 }
 
-.container-header {
+.header > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,7 +65,7 @@ button {
     margin-top: 8px;
 }
 
-.container-hero {
+.hero > .container {
     display: flex;
     flex-direction: column;
 }
